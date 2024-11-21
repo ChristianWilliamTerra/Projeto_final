@@ -1,0 +1,25 @@
+@keyframes changeBackgroundImage {
+    0% {
+        background-image: url("./Imagens/beatles.jpg");
+    }
+
+    50% {
+        background-image: url("./Imagens/queen.jpg");
+    }
+
+    75% {
+        background-image: url("./Imagens/guns.jpg");
+    }
+
+    100% {
+        background-image: url("./Imagens/greenday.jpg");
+    }
+}
+
+.destaques {
+    width: 100%;
+    height: 105%;
+    animation: changeBackgroundImage 15s infinite;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
