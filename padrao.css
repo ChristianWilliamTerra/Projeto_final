@@ -3,6 +3,12 @@ html {
     color: white;
 }
 
+* {
+        font-family: "Rock Salt", cursive;
+        font-weight: 400;
+        font-style: normal;
+}
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -109,18 +115,39 @@ main {
 }
 
 .albuns_conteudo {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
     align-items: center;
     text-align: center;
+    
     width: 500px;
-
     margin: 10px;
+
+    justify-content: center;
+}
+
+.albuns_conteudo-imagems {
+    display: flex;
+    position: relative;
 }
 
 .albuns_conteudo-imagem {
     height: 150px;
     width: 150px;
     margin: 15px;
-} 
+}
+
+.albuns_conteudo-imagem-vinil {
+    position: absolute;
+}
+
+.albuns_musica {
+    position: absolute;
+    width: 70px; 
+    height: 70px;
+}
 
 .rodape_conteudo {
     background-color: black;
