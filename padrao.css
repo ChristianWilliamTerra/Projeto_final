@@ -47,6 +47,8 @@ h1 h2 h3 {
 .cabecalho_menu {
     display: flex;
     align-items: center;
+
+    margin-right: 10px;	
 }
 
 .menu_botao {
