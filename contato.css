@@ -5,8 +5,14 @@
     justify-content: center;
     text-align: center;
     font-size: 30px;
+}
 
-    height: 85%;
+.contato_imagem {
+    height: 300px;
+    width: 300px;
+
+    margin-top: 20px;
+    border-radius: 30px;
 }
 
 .contato_titulo {

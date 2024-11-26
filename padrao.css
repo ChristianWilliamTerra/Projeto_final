@@ -20,7 +20,19 @@ html {
 }
 
 .cabecalho_titulo {
+    display: flex;
     margin-left: 20px;
+
+    align-items: center;
+
+}
+
+.cabecalho_imagem {
+    height: 80px;
+    width: 80px;
+
+    margin-right: 10px;
+    border-radius: 30%;
 }
 
 .cabecalho_menu {
